@@ -1,0 +1,12 @@
+<?php
+
+    $data = $this->data;
+    $email = $this->email;
+
+    echo 'Thank you ' . $email . '. The result of the sorting is: <br /><br />';
+
+    foreach($data as $row) {
+        echo implode(',', $row) . '<br /><br />';
+    }
+
+?>
